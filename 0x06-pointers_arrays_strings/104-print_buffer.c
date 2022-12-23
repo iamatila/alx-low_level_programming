@@ -31,7 +31,7 @@ void printHexes(char *b, int start, int end)
 			printf("  ");
 		if (i % 2)
 			printf(" ");
-			i++;
+		i++;
 	}
 }
 
@@ -52,8 +52,8 @@ void printASCII(char *b, int start, int end)
 		ch = *(b + i + start);
 		if (!isPrintableASCII(ch))
 			ch = 46;
-			printf("%c", ch);
-			i++;
+		printf("%c", ch);
+		i++;
 	}
 }
 
@@ -78,5 +78,5 @@ void print_buffer(char *b, int size)
 			printf("\n");
 		}
 	} else
-	printf("\n");
+		printf("\n");
 }
