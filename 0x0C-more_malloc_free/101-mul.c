@@ -33,7 +33,7 @@ char *_memset(char *s, char b, unsigned int n)
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
- 	char *ptr;
+	char *ptr;
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
@@ -56,7 +56,7 @@ void multiply(char *s1, char *s2)
 	int i, l1, l2, total_l, f_digit, s_digit, res = 0, tmp;
 	char *ptr;
 	void *temp;
-	
+
 	l1 = _length(s1);
 	l2 = _length(s2);
 	tmp = l2;
